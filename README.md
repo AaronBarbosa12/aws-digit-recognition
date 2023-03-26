@@ -1,4 +1,5 @@
 # aws-digit-recognition
 Cloud-based Image Recognition AI on AWS
 
-![Demo GIF](src/demo.gif)
+<img src="src/demo.gif" alt="Demo GIF" width="600"/>
+
