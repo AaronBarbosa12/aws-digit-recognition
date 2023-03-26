@@ -11,6 +11,8 @@ This is a straightforward web application that leverages a machine learning mode
   <img src="src/ml_pipeline.png"/>
 </p>
 
+The Lambda function utilized by the application is powered by a convolutional neural network that was trained specifically for the task of recognizing handwritten digits. To train the model, an isolated deep learning Amazon Machine Image (AMI) was employed to ensure a consistent and stable training environment. Following training, the model was containerized and uploaded to an AWS Elastic Container Registry for easy accessibility and scalability.
+
 <p align="center">
   <img src="src/ml_pipeline_2.png"/>
 </p>
